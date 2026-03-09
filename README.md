@@ -5,25 +5,24 @@
 ## Authors: 
 
 **Garett Clark** and **Ryan Lovvorn**
-## Attributation: 
-Visual Studio Code, Dr.Barry Cumbie, Github, Co-Pilot
+## Attribution: 
+Visual Studio Code, Dr.Barry Cumbie, GitHub, Co-Pilot
 
 
 ## Aim: 
 
-Currently working on a forum that will contain multiple boards that will about soyjak culture and satircal culture in general.
+Currently working on a forum that will contain multiple boards that will be about soyjak culture and satirical culture in general.
 
 ## Background: 
 
-I have been a big fan of old forum websites. They feel to me to be more personal than anyother social media app. I would
-prefer this website to be a primarily desktop-based, but the truth is, most people access the internet through their phones. I grew up
+I have been a big fan of old forum websites. They feel to me to be more personal than anyother social media app. I prefer this website to be primarily desktop-based, but the truth is, most people access the internet through their phones. I grew up
 browsing various forums during my childhood and found them to be intriguing. Something I always enjoyed was the culture and language
-that spawned from this websites. I never asked what these phrases meant until I lurked more. I hope that newer generations can share
+that spawned from this website. I never asked what these phrases meant until I lurked more. I hope that newer generations can share
 in this enjoyment. I am so glad my professor, Dr.Barry Cumbie, has allowed me the possibility of making something that was a defining
 moment of my childhood.
 
 
-## Refernces: 
+## References: 
 
 https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.com/, https://github.com/barrycumbie/bearbot
 
@@ -67,7 +66,7 @@ from `pages/index.html`
 </nav>
 ```
 
-from `scripts/profile-creator.js` I got this from w3schools, but it allows you edit your profile and display it.
+from `scripts/profile-creator.js` I got this from w3schools, but it allows you to edit your profile and display it.
 
 ```js
 function initProfileCreator() {
