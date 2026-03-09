@@ -30,12 +30,12 @@ https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.co
 
 ## Inspiration
 
-<img width="900" height="770" alt="image" src="https://raw.githubusercontent.com/BasedBroski/Forum-Website/main/Reference-Images/image.png" />
+![Alt text](./Reference-Images/image.png)
 
 I love Gamer Church for its widespread use of gifs, I wish to do the same and possibily make some gifs of my own.
 
 
-<img width="900" height="770" alt="image" src="https://raw.githubusercontent.com/BasedBroski/Forum-Website/main/Reference-Images/reference2.png" />
+![Alt text](./Reference-Images/reference2.png)
 
 I wanted to make a site similar to KiwiFarms.com system, with users having the ability to make their own profiles and profile pictures while remaining annoymous.
 
