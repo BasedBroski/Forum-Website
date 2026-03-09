@@ -1,33 +1,45 @@
 # JakkerParadise
 >A home for soyjaks one and all!!!
 
+
 ## Authors: 
+
 **Garett Clark** and **Ryan Lovvorn**
 ## Attributation: 
 Visual Studio Code, Dr.Barry Cumbie, Github, Co-Pilot
 
+
 ## Aim: 
+
 Currently working on a forum that will contain multiple boards that will about soyjak culture and satircal culture in general.
 
 ## Background: 
+
 I have been a big fan of old forum websites. They feel to me to be more personal than anyother social media app. I would
-prefer this website to be a primarily desktop based, but the truth is most people access the internet through their phone. I grew up
+prefer this website to be a primarily desktop-based, but the truth is, most people access the internet through their phones. I grew up
 browsing various forums during my childhood and found them to be intriguing. Something I always enjoyed was the culture and language
 that spawned from this websites. I never asked what these phrases meant until I lurked more. I hope that newer generations can share
-in this enjoyment. I am so glad my professor Dr.Barry Cumbie has allowed me the possibility of making something that was a defining
-momment of my childhood.
+in this enjoyment. I am so glad my professor, Dr.Barry Cumbie, has allowed me the possibility of making something that was a defining
+moment of my childhood.
 
 
 ## Refernces: 
+
 https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.com/, https://github.com/barrycumbie/bearbot
 
+
 ## Inspiration
+
 ![Alt text](./Refernce-Images/image.png)
 I love Gamer Church for its widespread use of gifs, I wish to do the same and possibily make some gifs of my own.
 
+![Alt text](./Refernce-Images/refernce2.png)
+I wanted to make a site similar to KiwiFarms.com system, with users having the ability to make their own profiles and profile pictures while remaining annoymous.
+
+
 ## Code Examples
 
-This is the life blood of the website, without the navbar this website is doomed! It assists in the navigation between pages.
+This is the life blood of the website, without the navbar, this website is doomed! It assists in the navigation between pages.
 
 from `pages/index.html` 
 
