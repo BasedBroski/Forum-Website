@@ -22,7 +22,7 @@ momment of my childhood.
 https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.com/, https://github.com/barrycumbie/bearbot
 
 ## Inspiration
-![Alt text](./images/image.png)
+![Alt text](./Refernce-Images/image.png)
 I love Gamer Church for its widespread use of gifs, I wish to do the same and possibily make some gifs of my own.
 
 ## Code Examples
