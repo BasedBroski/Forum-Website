@@ -102,3 +102,10 @@ function initProfileCreator() {
     instaInput.value = profile.social.instagram || '';
   }
   ```
+
+## Proof of Usability
+![Alt text](./reference-images/screenshot-desktop.png)
+
+
+![Alt text](./reference-images/screenshot-phone.png)
+
