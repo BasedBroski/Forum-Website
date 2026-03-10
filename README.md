@@ -4,7 +4,7 @@
 
 ## Authors: 
 
-**Garett Clark** and **Ryan Lovvorn**
+**Garett Clark** and **Ryan Lovvorn** https://github.com/RyanLvv/
 ## Attribution: 
 Visual Studio Code, Dr.Barry Cumbie, GitHub, Co-Pilot
 
