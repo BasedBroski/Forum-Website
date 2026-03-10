@@ -1,0 +1,257 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'); 
+/* resets awll browsert default styles */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Rubik+Mono+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
+/* Basic styles for the forum website */
+
+/* Reset some default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: lightblue;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Navbar styles - legacy, mostly replaced by Bootstrap */
+.navbar {
+    padding: 10px 20px;
+}
+
+/* user name snippet inside navbar, exposed for easy theming */
+.nav-username {
+    /* example: adjust size or color */
+    font-size: 8.25rem;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Legacy sliding navigation (may no longer be used) */
+.navigation {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s;
+    z-index: 1000;
+}
+
+.navigation.show {
+    left: 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 50px 20px;
+}
+
+.nav-item {
+    margin: 20px 0;
+}
+
+/* let Bootstrap control link colors in navbar; remove custom color rules */
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* optional hover adjustment */
+.nav-item a:hover {
+    color: #555;
+}
+
+/* Close icon */
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Bar icon */
+.bar-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Hide class for mobile */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+/* Search box */
+.search-box {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.search-box div {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-box select,
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #555;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Subforum styles */
+.subforum {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.subforum-title {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.subforum-title h1 {
+    font-size: 20px;
+}
+
+.subforum-row {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.subforum-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.subforum-icon i {
+    font-size: 48px;
+    color: #333;
+}
+
+.subforum-description h4 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.subforum-description p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.subforum-stats {
+    font-weight: bold;
+    color: #333;
+}
+
+.subforum-info {
+    font-size: 14px;
+}
+
+.subforum-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.subforum-devider {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/* Forum info */
+.forum-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.forum-info .chart {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.forum-info span {
+    display: block;
+    margin: 5px 0;
+}
+
+.forum-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .subforum-row {
+        flex-direction: column;
+    }
+
+    .search-box div {
+        flex-direction: column;
+    }
+
+    .search-box select,
+    .search-box input,
+    .search-box button {
+        margin-bottom: 10px;
+    }
+}
