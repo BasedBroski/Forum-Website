@@ -1,10 +1,13 @@
 # JakkerParadise
->A home for soyjaks one and all!!!
+>CIS-376-01 Spring 2026 MID TERM PROJECT
+
+[source code](https://github.com/BasedBroski/forum-website-project)
 
 
 ## Authors: 
 
 **Garett Clark** and **Ryan Lovvorn** (https://github.com/RyanLvv/)
+
 ## Attribution: 
 Visual Studio Code, Dr.Barry Cumbie, GitHub, Co-Pilot
 
@@ -13,18 +16,19 @@ Visual Studio Code, Dr.Barry Cumbie, GitHub, Co-Pilot
 
 Currently working on a forum that will contain multiple boards that will be about soyjak culture and satirical culture in general.
 
-## Background: 
+## User Story: 
+**As a** web dev student
 
-I have been a big fan of old forum websites. They feel to me to be more personal than anyother social media app. I prefer this website to be primarily desktop-based, but the truth is, most people access the internet through their phones. I grew up
-browsing various forums during my childhood and found them to be intriguing. Something I always enjoyed was the culture and language
-that spawned from this website. I never asked what these phrases meant until I lurked more. I hope that newer generations can share
-in this enjoyment. I am so glad my professor, Dr.Barry Cumbie, has allowed me the possibility of making something that was a defining
-moment of my childhood.
+**I want to** create a social website in a forum style
+
+**So that** others may communicate with each other and have fun
+
+
 
 
 ## References: 
 
-https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.com/, https://github.com/barrycumbie/bearbot
+https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.com/, https://github.com/barrycumbie/bearbot, https://gamer.church/home/, https://kiwifarms.st/
 
 
 ## Inspiration
@@ -33,7 +37,7 @@ https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.co
 
 
 
-I love Gamer Church for its widespread use of gifs, I wish to do the same and possibily make some gifs of my own.
+I love Gamer Church for its widespread use of gifs, I wish to do the same and possibily make some gifs of my own. Gamer Church is a very interactive website all in all, with its cursor and buttons.
 
 
 
@@ -41,12 +45,12 @@ I love Gamer Church for its widespread use of gifs, I wish to do the same and po
 
 
 
-I wanted to make a site similar to KiwiFarms.com system, with users having the ability to make their own profiles and profile pictures while remaining annoymous.
+I wanted to make a site similar to KiwiFarms.com system, with users having the ability to make their own profiles and profile pictures while remaining annoymous. I hope to implement a system of boards and threads where posts are time-stamped and stacked on top of each other.
 
 
 ## Code Examples
 
-This is the life blood of the website, without the navbar, this website is doomed! It assists in the navigation between pages.
+This is the lifeblood of the website. It assists in the navigation between pages. It contains multiple nav-items that are then put into a list.
 
 from `pages/index.html` 
 
@@ -71,7 +75,7 @@ from `pages/index.html`
 </nav>
 ```
 
-from `scripts/profile-creator.js` I got this from w3schools, but it allows you to edit your profile and display it.
+from `scripts/profile-creator.js` I got this from w3schools, but it allows you to edit your profile through get elements inputed by the user. It is then saved and loaded for the user to see.
 
 ```js
 function initProfileCreator() {
@@ -102,10 +106,22 @@ function initProfileCreator() {
     instaInput.value = profile.social.instagram || '';
   }
   ```
+## Architecture
+HTML, CSS, JavaScript
 
-## Proof of Usability
+## Verification
 ![Alt text](./reference-images/screenshot-desktop.png)
 
 
 ![Alt text](./reference-images/screenshot-phone.png)
+
+
+## Background: 
+
+I have been a big fan of old forum websites. They feel to me to be more personal than anyother social media app. I prefer this website to be primarily desktop-based, but the truth is, most people access the internet through their phones. I grew up
+browsing various forums during my childhood and found them to be intriguing. Something I always enjoyed was the culture and language
+that spawned from this website. I never asked what these phrases meant until I lurked more. I hope that newer generations can share
+in this enjoyment. I am so glad my professor, Dr.Barry Cumbie, has allowed me the possibility of making something that was a defining
+moment of my childhood.
+
 
