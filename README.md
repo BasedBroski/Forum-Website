@@ -29,7 +29,7 @@ https://github.com/SelmiAbderrahim/Free-Forum-Template, https://www.w3schools.co
 
 ## Inspiration
 
-![Alt text](./Reference-Images/image.png)
+![Alt text](./reference-images/image.png)
 
 
 
@@ -37,7 +37,7 @@ I love Gamer Church for its widespread use of gifs, I wish to do the same and po
 
 
 
-![Alt text](./Reference-Images/reference2.png)
+![Alt text](./reference-images/reference2.png)
 
 
 
